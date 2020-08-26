@@ -54,6 +54,35 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AOSiPVersionPreferenceController"/>
 
+    <!-- Memetainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="Who to blame (Maintainer)"
+        android:summary="Mayur Varde"
+        settings:enableCopying="true">
+	<intent
+	   android:action="android.intent.action.VIEW"
+	   android:data="https://t.me/marshmello_61" />
+    </Preference>
+
+    <!-- Build type -->
+    <Preference
+        android:key="buildtype"
+        android:title="Build Type"
+        android:summary="Mod"
+        settings:enableCopying="true"/>
+
+    <!-- Donate -->
+    <Preference
+        android:key="donate"
+        android:title="Donate"
+        android:summary="It's a good thing to do"
+        settings:enableCopying="true">
+      <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://paypal.me/marshmello61" />
+    </Preference>
+
     <!-- Baseband -->
     <Preference
         android:key="base_band"
